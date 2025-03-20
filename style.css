@@ -32,7 +32,7 @@ input[type="date"] {
 
 button {
     background-color: #ff4500;
-    color: white;
+    color: rgb(9, 7, 7);
     padding:0.625em ;
 }
 
@@ -69,6 +69,4 @@ button:hover {
     margin-top: 0.3125em; 
     font-size: 0.875em; 
     color: #333;
-}
-
 }
