@@ -70,3 +70,16 @@ button:hover {
     font-size: 0.875em; 
     color: #333;
 }
+
+@media screen and (max-width: 780px) {
+    #factsContainer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 100%;
+    }
+    .photo-container {
+        width: 45%;
+        margin-bottom: 1em;
+    }
+}
