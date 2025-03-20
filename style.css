@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 0.975em; 
+    font-size: 1.5rem;
+}
+
+.form {
+    margin-top: 1.25em; 
+    background: white;
+    padding: 1.25em; 
+    display: inline-block;
+}
+
+.date {
+    font-size: 1rem;
+    margin-right: 0.625em;
+}
+
+input[type="date"] {
+    padding: 0.5em; 
+    border: 0.0625em solid #ccc; 
+    border-radius: 0.3125em;
+    font-size:1rem;
+}
+
+button {
+    background-color: #ff4500;
+    color: white;
+    padding:0.625em ;
+}
+
+button:hover {
+    background-color: #e03e00;
+}
+
+#factsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    gap: 1.5em; 
+    margin-top: 1.25em; 
+    padding: 0.9375em; 
+    background-color: #f9f9f9;
+    border-radius: 0.5em; 
+    max-width: 37.5em; 
+}
+
+.photo-container {
+    text-align: center;
+}
+
+.photo-container img {
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.photo-container p {
+    margin-top: 0.3125em; 
+    font-size: 0.875em; 
+    color: #333;
+}
